@@ -1,0 +1,76 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  opacity: 0.5;
+}
+
+input {
+  padding: 0.75rem;
+  border-radius: 1rem;
+
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+  outline: 1px solid rgba(0, 0, 0, 0.1);
+
+  transition: 0.25s all;
+}
+
+input:focus {
+  color: #fff;
+  outline: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+input[type="number"] {
+  text-align: center;
+  width: 4rem;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* FF */
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type="submit"],
+button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 4rem;
+  cursor: pointer;
+
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
+
+  transition: 0.25s all;
+}
+
+input[type="submit"]:hover,
+button:hover {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.7);
+
+  transition: 0.25s all;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+
+input[type="submit"]:active,
+button:active {
+  color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 255, 255, 0.4);
+
+  transition: 0.25s all;
+}

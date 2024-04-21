@@ -1,0 +1,9 @@
+.group {
+  display: flex;
+  gap: 1rem;
+}
+
+.group.form {
+  flex-direction: column;
+  align-items: center;
+}

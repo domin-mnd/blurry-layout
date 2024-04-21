@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>General-purpose layout</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/link" title="First Link">🚀</a></li>
+          <li><a href="/link" title="Second Link">🔢</a></li>
+          <li><a href="/link" title="Third Link">🎭</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="app"></div>
+    </main>
+    <footer>Your amazing footer ☕</footer>
+
+    <div>
+      <div id="blur-background" aria-hidden="true">
+        <div id="polygons" />
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/ts/activate.ts"></script>
+    <script type="module" src="/src/ts/background.ts" defer async></script>
+  </body>
+</html>

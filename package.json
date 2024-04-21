@@ -1,0 +1,19 @@
+{
+  "name": "blurry-layout",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "lint": "korob lint",
+    "format": "korob format",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.6.3",
+    "korob": "0.2.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}

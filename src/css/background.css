@@ -1,0 +1,24 @@
+#blur-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+
+  width: 100vw;
+  height: 100vh;
+
+  filter: blur(4rem);
+  overflow: hidden;
+}
+
+#blur-background #polygons {
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  transition: clip-path 3s;
+}
+
+/* Prevent from flashing with background by assigning color only when style attribute is present. */
+#blur-background #polygons[style] {
+  background-color: rgb(193, 90, 26);
+}
